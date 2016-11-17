@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fun_Facts" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coh-Ne-cOk">
+                                <frame key="frameInset" minX="40" minY="270" width="520" height="61"/>
+                                <string key="text">Polar bears can eat as many as 86 penguins in a single sitting. (If they lived in the same place)Polar bears can eat as many as 86 penguins in a single sitting. (If they lived in the same place)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVC-Tw-kRe">
+                                <frame key="frameInset" minX="40" minY="480" width="520" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2fz-cT-cKp"/>
+                                    <constraint firstAttribute="height" constant="40" id="Xhe-H8-urc"/>
+                                </constraints>
+                                <state key="normal" title="Show another fact">
+                                    <color key="titleColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2fz-cT-cKp"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="newFactButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="ue5-f8-eKb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky0-kj-Rdx">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="nm2-bL-ljI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nm2-bL-ljI"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="26s-NV-zT0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="coh-Ne-cOk" secondAttribute="trailing" constant="20" id="3Od-MQ-cCk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="coh-Ne-cOk" secondAttribute="trailing" constant="20" id="3qe-uR-yll"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="6FL-e4-F5x"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8hZ-VK-Bp4"/>
+                            <constraint firstItem="EVC-Tw-kRe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A7M-6c-Cvc"/>
+                            <constraint firstItem="EVC-Tw-kRe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Dhh-pI-OBT"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="HTA-w3-oY8"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HUi-te-0gX"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="106" id="LXD-CW-TcU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EVC-Tw-kRe" secondAttribute="bottom" constant="80" id="Lc6-Jf-Y5C"/>
+                            <constraint firstItem="EVC-Tw-kRe" firstAttribute="top" secondItem="coh-Ne-cOk" secondAttribute="bottom" constant="147" id="Lf8-lK-HmN"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="107" id="MPv-K3-0l8"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mtr-fL-y45"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="coh-Ne-cOk" secondAttribute="trailing" constant="20" id="Oru-vj-VRj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EVC-Tw-kRe" secondAttribute="trailing" constant="20" id="Rb1-ol-8A8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EVC-Tw-kRe" secondAttribute="bottom" constant="80" id="Tue-pe-r3o"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="aQl-wl-9SE"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c1X-Qm-zCH"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="c6A-0P-jA6"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="glK-gu-OS3"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jde-ME-tP6"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="jos-TU-7Ut"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="k8X-7A-FFo"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kCj-Kd-zw6"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="mBT-db-4Lg"/>
+                            <constraint firstItem="EVC-Tw-kRe" firstAttribute="top" secondItem="coh-Ne-cOk" secondAttribute="bottom" constant="147" id="pdE-QG-VHD"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="top" secondItem="Ky0-kj-Rdx" secondAttribute="bottom" constant="133" id="qvo-BT-FkY"/>
+                            <constraint firstItem="EVC-Tw-kRe" firstAttribute="top" secondItem="coh-Ne-cOk" secondAttribute="bottom" constant="147" id="rHx-X9-tJj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ky0-kj-Rdx" secondAttribute="trailing" constant="469" id="swf-nl-sgr"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="96" id="t6e-QY-mWN"/>
+                            <constraint firstItem="Ky0-kj-Rdx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="uBl-T1-yI3"/>
+                            <constraint firstItem="coh-Ne-cOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uPc-qE-p24"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="MPv-K3-0l8"/>
+                                <exclude reference="mBT-db-4Lg"/>
+                                <exclude reference="swf-nl-sgr"/>
+                                <exclude reference="t6e-QY-mWN"/>
+                                <exclude reference="uBl-T1-yI3"/>
+                                <exclude reference="26s-NV-zT0"/>
+                                <exclude reference="3qe-uR-yll"/>
+                                <exclude reference="8hZ-VK-Bp4"/>
+                                <exclude reference="HTA-w3-oY8"/>
+                                <exclude reference="HUi-te-0gX"/>
+                                <exclude reference="Mtr-fL-y45"/>
+                                <exclude reference="Oru-vj-VRj"/>
+                                <exclude reference="aQl-wl-9SE"/>
+                                <exclude reference="c1X-Qm-zCH"/>
+                                <exclude reference="c6A-0P-jA6"/>
+                                <exclude reference="glK-gu-OS3"/>
+                                <exclude reference="jde-ME-tP6"/>
+                                <exclude reference="jos-TU-7Ut"/>
+                                <exclude reference="qvo-BT-FkY"/>
+                                <exclude reference="uPc-qE-p24"/>
+                                <exclude reference="A7M-6c-Cvc"/>
+                                <exclude reference="Lf8-lK-HmN"/>
+                                <exclude reference="pdE-QG-VHD"/>
+                                <exclude reference="rHx-X9-tJj"/>
+                                <exclude reference="Tue-pe-r3o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="funFactButton" destination="EVC-Tw-kRe" id="R0C-Xt-eXs"/>
+                        <outlet property="funFactLabel" destination="coh-Ne-cOk" id="Lj3-Hh-Axk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

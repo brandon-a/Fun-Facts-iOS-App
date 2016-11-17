@@ -1,0 +1,18 @@
+
+*.pbxproj
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcscheme
+
+Fun Facts.xcodeproj/xcuserdata/brandon.xcuserdatad/xcschemes/xcschememanagement.plist
+
+Fun Facts/Assets.xcassets/.DS_Store
+
+Fun Facts/.DS_Store
+
+.DS_Store
+
+Fun Facts/Fun_Facts_Stamp.png
