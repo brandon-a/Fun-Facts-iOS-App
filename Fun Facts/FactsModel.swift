@@ -2,8 +2,8 @@
 //  FactsModel.swift
 //  Fun Facts
 //
-//  Created by Brandon Archbold on 5/20/16.
-//  Copyright © 2016 Brandon Archbold. All rights reserved.
+//  Created by Brandon on 5/20/16.
+//  Copyright © 2016 Brandon. All rights reserved.
 //
 
 import GameKit

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Fun Facts
 //
-//  Created by Brandon Archbold on 5/13/16.
-//  Copyright © 2016 Brandon Archbold. All rights reserved.
+//  Created by Brandon on 5/13/16.
+//  Copyright © 2016 Brandon. All rights reserved.
 //
 
 import UIKit
